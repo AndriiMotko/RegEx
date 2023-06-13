@@ -21,6 +21,9 @@ export const LI = styled.li``;
 export const Def = styled.p``;
 export const Text = styled.p``;
 
+export const Pre = styled.pre`
+  margin: 0;
+`;
 export const Code = styled.code`
   display: inline-flex;
   background-color: rgba(52, 53, 65, 1);

@@ -10,6 +10,7 @@ import {
   Text,
   Code,
   UL,
+  Pre,
 } from "./styles";
 
 const RegexPage = () => (
@@ -39,7 +40,9 @@ const RegexPage = () => (
           йдеться нижче):
         </Def>
         <Text>
-          <Code>{"., +, *, ?, ^, $, (, ), [, ], {, }, |, /"}</Code>
+          <Pre>
+            <Code>{"., +, *, ?, ^, $, (, ), [, ], {, }, |, /"}</Code>
+          </Pre>
         </Text>
       </LI>
 
@@ -54,7 +57,9 @@ const RegexPage = () => (
             </Def>
             <Text>
               Наприклад:
-              <Code>". => "." \n + => "+" \n ( => "(" \n"</Code>
+              <Code>{'\\.  =>  "."'}</Code>
+              <Code>{'\\+  =>  "+"'}</Code>
+              <Code>{'\\(  =>  "("'}</Code>
             </Text>
           </LI>
         </UL>
