@@ -1,4 +1,4 @@
-import RegexPage from "./pages/regex";
+import RegexPage from "./pages/regex/index";
 import "./styles.css";
 
 export default function App() {

@@ -14,6 +14,7 @@ export const H4 = styled.h4``;
 export const H5 = styled.h5``;
 
 export const OL = styled.ol``;
+export const UL = styled.ul``;
 export const LI = styled.li``;
 
 
