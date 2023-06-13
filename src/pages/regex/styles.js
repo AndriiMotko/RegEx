@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const DIV = styled.div``;
 
@@ -14,9 +14,10 @@ export const H4 = styled.h4``;
 export const H5 = styled.h5``;
 
 export const OL = styled.ol``;
-export const UL = styled.ul``;
+export const UL = styled.ul`
+  list-style-type: square;
+`;
 export const LI = styled.li``;
-
 
 export const Def = styled.p``;
 export const Text = styled.p``;
@@ -25,11 +26,21 @@ export const Pre = styled.pre`
   margin: 0;
 `;
 export const Code = styled.code`
-  display: inline-flex;
+  display: flex;
+  width: max-content;
+  margin: 0.25rem 0;
   background-color: rgba(52, 53, 65, 1);
   padding: 0.25rem 0.75rem;
   border: 1px solid rgba(52, 53, 65, 1);
   border-radius: 0.5rem;
   font-family: "Courier New", monospace;
   color: #FCE22A;
+`;
+export const CodeL = styled.code`
+  display: inline-flex;
+  padding: 0 0.1rem;
+  font-family: "Courier New", monospace;
+  color: #e324bd;
+  font-weight: 600;
+  letter-spacing: -2px;
 `;
